@@ -21,7 +21,7 @@ Parameters:
   DBPassword:
     Description: 'Password for the WordPress database user from AWS Secrets Manager'
     Type: String
-    Default: '{{resolve:secretsmanager:wordpress-lab-db-password:SecretString}}'
+    Default: '{{resolve:secretsmanager:wordpress-lab-db-password3:SecretString}}'
     NoEcho: true
   DBRootPassword:
     Description: 'Root password for the MySQL database'
